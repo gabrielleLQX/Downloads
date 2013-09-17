@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$TOOLKIT_DIR$\config\flashloader\ATMEL\AT91SAM3S4-EK\internalflash-sam3s4.out</exe>
+  <flash_base>0x400000</flash_base>
+  <page>256</page>
+  <block>16 0x4000</block>
+  <macro>$TOOLKIT_DIR$\config\flashloader\ATMEL\resources\FlashAT91SAM3Sx.mac</macro>
+  <args_doc>[--flash] specifies the flash loader program internal flash.
+[--boot] is given, it will boot from flash after it is programmed. 
+</args_doc>
+</flash_device>
+

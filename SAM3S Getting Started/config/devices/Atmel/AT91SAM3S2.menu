@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<optionMenuItem>
+  <tag>AT91SAM3S2</tag>
+  <display>Atmel AT91SAM3S2</display>
+  <data>$CUR_DIR$\AT91SAM3S2.i79</data>
+</optionMenuItem>
+

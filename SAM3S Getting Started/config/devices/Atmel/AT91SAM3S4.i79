@@ -1,0 +1,40 @@
+[FILEFORMAT]
+rev=1.0
+
+
+[CHIP]
+//Chip name
+name=AT91SAM3S4
+
+//What endian modes does the chip support? (littleonly, bigonly, both(default))
+endiansupport=
+
+//Does the chip support the thumb instruction set? (true(default), false)
+thumbsupport=true
+//Does the chip support the arm instruction set? (true(default), false)
+armsupport=true
+
+//Does the chip have an FPU coprocessor?
+//(VFPv1,VFPv2,VFP9-S,MaverickCrunch,None(default)
+fpu=
+
+
+[CORE]
+//Name of the ARM processor core
+name=Cortex-M3
+
+
+[DDF FILE]
+//Name of the ddf file
+name=Atmel\ioat91sam3s4.ddf
+
+
+[XCL FILE]
+//Name of the linker config file
+name=
+
+[FLASH LOADER]
+name=$TOOLKIT_DIR$\config\flashloader\Atmel\AT91SAM3S4-EK\at91sam3s4-flash.board
+args=
+
+
